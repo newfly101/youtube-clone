@@ -1,0 +1,43 @@
+.header {
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: #b8b8b8;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #5b5b5b;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+}
+.burger-menu {
+    width: 40px;
+    /*height: 100px;*/
+    margin: 0 24px;
+}
+
+.youtube-logo {
+    height: 100px;
+    /*margin: 0 24px;*/
+}
+
+
+.youtube-search {
+
+}
+
+.youtube-icon {
+
+}
+
