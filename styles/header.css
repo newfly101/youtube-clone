@@ -18,7 +18,7 @@
 }
 
 .first-section {
-    display: flex;
+    display: inherit;
     align-items: center;
 }
 .burger-menu {
@@ -32,10 +32,50 @@
     /*margin: 0 24px;*/
 }
 
+.second-section {
+    display: inherit;
+    align-items: inherit;
+    height: inherit;  /* .header : 100px */
 
-.youtube-search {
+    flex: 1;
+    margin: 0 35px 0 70px;
+    max-width: 500px;
 
 }
+.search-bar {
+    flex: inherit; /* .second-section : 1 */
+    width: 0;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 1.0rem;
+    border: 1px solid #5b5b5b;
+    border-radius: 2px;
+    box-shadow: none;
+    background-color: #000;
+    font-weight: bold;
+    color: #949494;
+}
+
+.search-bar::placeholder {
+    font-size: 0.96rem;
+}
+
+.search-btn {
+    height: 40px;
+    width: 60px;
+    background-color: #5b5b5b;
+}
+
+.search-icon {
+
+}
+.search-voice-icon {
+
+}
+.toolTip {
+
+}
+
 
 .youtube-icon {
 
