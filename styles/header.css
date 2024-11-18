@@ -1,5 +1,5 @@
 .header {
-    height: 100px;
+    height: 40px;
 
     display: flex;
     flex-direction: row;
@@ -21,8 +21,11 @@
     display: inherit;
     align-items: center;
 }
+.first-section>img {
+    cursor: pointer;
+}
 .burger-menu {
-    width: 40px;
+    width: 36px;
     /*height: 100px;*/
     margin: 0 24px;
 }
@@ -34,6 +37,7 @@
 
 .second-section {
     display: inherit;
+    justify-content: center;
     align-items: inherit;
     height: inherit;  /* .header : 100px */
 
@@ -41,6 +45,9 @@
     margin: 0 35px 0 70px;
     max-width: 500px;
 
+}
+.second-section>button:hover {
+    background-color: #5b5b5b;
 }
 .search-bar {
     flex: inherit; /* .second-section : 1 */
@@ -61,23 +68,67 @@
 }
 
 .search-btn {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     height: 40px;
     width: 60px;
-    background-color: #5b5b5b;
+    background-color: #949494;
+    border: 1px solid #6f6f6f;
+    border-left: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .search-icon {
+    width: 24px;
+}
+.search-voice-btn {
+    display: inherit;
+    justify-content: inherit;
+    align-items: center;
 
+    height: 36px;
+    width: 36px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 10px;
+    cursor: pointer;
 }
 .search-voice-icon {
-
+    height: 36px;
 }
 .toolTip {
 
 }
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-section>button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    border-radius: 50px;
+    margin-right: 5px;
+    cursor: pointer;
 
-
-.youtube-icon {
+    width: 36px;
+    height: 36px;
+}
+.third-section>button:hover {
+    background-color: #5b5b5b;
+}
+.third-section>button>img {
+    width: 24px;
+    height: 24px;
 
 }
+
 
