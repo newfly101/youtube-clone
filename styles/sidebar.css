@@ -3,7 +3,7 @@
     top: 40px;
     left: 0;
     bottom: 0;
-    background-color: #5b5b5b;
+    background-color: var(--color-background);
     width: 70px;
     z-index: 200;
     padding-top: 10px;
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 .sidebar-link:hover {
-    background-color: #949494;
+    background-color: var(--color-item-hover);
 }
 .sidebar-link img {
     width: 34px;
