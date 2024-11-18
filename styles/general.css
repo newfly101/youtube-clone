@@ -1,3 +1,11 @@
+:root {
+    --light-background: #fffff;
+    --light-button-background: #f8f8f8;
+    --light-button-hover: #dfdfdf;
+    --light-button-border: #e5e5e5;
+    --light-tooltip-hover: #696969;
+}
+
 p {
     margin: 0;
 }
@@ -7,14 +15,11 @@ body {
     margin: 0;
     padding: 0 0 0 0;
     /*top 80 left 96 right 24*/
-    background-color: var(--color-background);
+    background-color: var(--light-background);
     color: white;
 }
-
-:root {
-    --color-background: #222222;
-    --color-hover: #5b5b5b;
-    --color-border: #2d2d2d;
-    --color-toolTip: #ffffff;
-    --color-item-hover: #868686;
+main {
+    margin-top: 42px;
+    margin-left: 72px;
 }
+

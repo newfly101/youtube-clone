@@ -13,76 +13,70 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="first-section">
-            <img class="burger-menu" src="assets/icons/burger.svg" alt="menu" />
-            <img class="youtube-logo" src="assets/icons/youtube-logo.svg" alt="youtube-logo" />
-        </div>
-        <div class="second-section">
-            <input class="search-bar" type="text" placeholder="검색"/>
-            <button class="search-btn">
-<!--                <img class="search-icon" src="assets/icons/search.svg" alt="search" />-->
-                <span class="toolTip">검색</span>
-            </button>
-            <button class="search-voice-btn">
-                <img class="search-voice-icon" src="assets/icons/voice-search.svg" alt="voice-search" />
-                <span class="toolTip">음성 검색</span>
-            </button>
-        </div>
-        <div class="third-section">
-            <button>
-                <img class="add-video-icon" src="assets/icons/add-video.svg" alt="add-video" />
-            </button>
-            <button>
-                <img class="video-table-icon" src="assets/icons/video-table.svg" alt="video-table" />
-            </button>
-            <button>
-                <img class="notice-icon" src="assets/icons/notice.svg" alt="notice" />
-            </button>
-            <button>
-                <img class="user-icon" src="assets/icons/user-icon.svg" alt="user" />
-            </button>
-        </div>
-    </header>
-    <nav class="navbar">
-        <div class="sidebar-link">
-            <button class="sidebar-home"></button>
-            <span>홈</span>
-        </div>
-        <div class="sidebar-link">
-            <button class="sidebar-shorts"></button>
-            <span>Shorts</span>
-        </div>
-        <div class="sidebar-link">
-            <button class="sidebar-subscribe"></button>
-            <span>구독</span>
-        </div>
-        <div class="sidebar-link">
-            <button class="sidebar-myPage"></button>
-            <span>내 페이지</span>
-        </div>
-    </nav>
-    <main>
-        <section class="main-grid">
-            <div class="video-preview">
-                <div class="video-picture">
-                    <img src="/assets/thumnail.JPG" alt="비디오이미지"/>
-                    <div>21:41</div>
-                </div>
-                <div class="video-info-preview">
-                    <div>author picture</div>
-                    <div class="video-info">
-                        <p>비디오 제목</p>
-                        <p>비디오 저자</p>
-                        <p>3 views . 6 months ago</p>
-                    </div>
-                </div>
-
+<header class="header">
+    <section class="first-section">
+        <div class="youtube-menu"></div>
+        <div class="youtube-logo"></div>
+    </section>
+    <section class="second-section">
+        <input class="search-bar" type="text" placeholder="검색"/>
+        <button class="search-btn">
+            <span class="toolTip">검색</span>
+        </button>
+        <button class="search-voice-btn">
+            <span class="toolTip">음성 검색</span>
+        </button>
+    </section>
+    <section class="last-section">
+        <button class="add-video-icon">
+            <span class="toolTip">만들기</span>
+        </button>
+        <button class="notice-icon">
+            <span class="toolTip">알림</span>
+        </button>
+        <button class="user-icon">
+        </button>
+    </section>
+</header>
+<nav class="navbar">
+    <div class="sidebar-link">
+        <button class="sidebar-home"></button>
+        <span>홈</span>
+    </div>
+    <div class="sidebar-link">
+        <button class="sidebar-shorts"></button>
+        <span>Shorts</span>
+    </div>
+    <div class="sidebar-link">
+        <button class="sidebar-subscribe"></button>
+        <span>구독</span>
+    </div>
+    <div class="sidebar-link">
+        <button class="sidebar-myPage"></button>
+        <span>내 페이지</span>
+    </div>
+</nav>
+<main>
+    <section class="main-grid">
+        <div class="video-preview">
+            <div class="video-picture">
+                <img src="/assets/thumnail.JPG" alt="비디오이미지"/>
+                <div>21:41</div>
             </div>
-        </section>
-    </main>
-    <footer>
+            <div class="video-info-preview">
+                <div>author picture</div>
+                <div class="video-info">
+                    <p>비디오 제목</p>
+                    <p>비디오 저자</p>
+                    <p>3 views . 6 months ago</p>
+                </div>
+            </div>
 
-    </footer>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
