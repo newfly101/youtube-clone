@@ -1,4 +1,4 @@
-.side-bar {
+.navbar {
     position: fixed;
     top: 40px;
     left: 0;
@@ -8,6 +8,7 @@
     z-index: 200;
     padding-top: 10px;
 }
+
 .sidebar-link {
     height: 70px;
     display: flex;
@@ -19,19 +20,12 @@
 .sidebar-link:hover {
     background-color: var(--color-item-hover);
 }
-.sidebar-link img {
-    width: 34px;
-    height: 34px;
-    margin-bottom: 4px;
-}
-
 .sidebar-link button {
     background-color: inherit;
     border: none;
     cursor: pointer;
     margin-bottom: 3px;
 }
-
 /* nav-bar button icon::before */
 .sidebar-link button::before {
     content: "";
@@ -39,12 +33,10 @@
     width: 24px;
     height: 24px;
 }
-
 /* nav-bar image insert */
 .sidebar-home::before {
     background-image: url('../assets/nav/home.svg');
 }
-
 .sidebar-shorts::before {
     background-image: url('../assets/nav/shorts.svg');
 }
@@ -54,7 +46,6 @@
 .sidebar-myPage::before {
     background-image: url('../assets/nav/myPage.svg');
 }
-
 .sidebar-link span {
     font-size: 10px;
 }
