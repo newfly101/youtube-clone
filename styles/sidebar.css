@@ -3,7 +3,7 @@
     top: 40px;
     left: 0;
     bottom: 0;
-    background-color: var(--color-background);
+    background-color: var(--light-background);
     width: 70px;
     z-index: 200;
     padding-top: 10px;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 .sidebar-link:hover {
-    background-color: var(--color-item-hover);
+    background-color: var(--light-button-hover);
 }
 .sidebar-link button {
     background-color: inherit;
@@ -48,4 +48,5 @@
 }
 .sidebar-link span {
     font-size: 10px;
+    color: var(--light-tooltip-hover);
 }
