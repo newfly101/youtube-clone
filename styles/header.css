@@ -49,6 +49,19 @@
 .second-section>button:hover {
     background-color: #5b5b5b;
 }
+.toolTip {
+    position: absolute;
+    background-color: #5b5b5b;
+    padding: 4px 8px;
+    bottom: -30px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.second-section>button:hover .toolTip {
+    opacity: 1;
+}
 .search-bar {
     flex: inherit; /* .second-section : 1 */
     width: 0;
