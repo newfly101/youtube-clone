@@ -50,8 +50,8 @@
     font-size: 12px;
     font-weight: 500;
     border-radius: 5px;
-    border: 1px solid var(--color-toolTip);
-    background-color: var(--color-background);
+    border: 1px solid var(--light-tooltip-hover);
+    background-color: var(--light-background);
 }
 
 .video-info-preview {
