@@ -24,6 +24,37 @@
     height: 34px;
     margin-bottom: 4px;
 }
+
+.sidebar-link button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+/* nav-bar button icon::before */
+.sidebar-link button::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+/* nav-bar image insert */
+.sidebar-home::before {
+    background-image: url('../assets/nav/home.svg');
+}
+
+.sidebar-shorts::before {
+    background-image: url('../assets/nav/shorts.svg');
+}
+.sidebar-subscribe::before {
+    background-image: url('../assets/nav/subscription.svg');
+}
+.sidebar-myPage::before {
+    background-image: url('../assets/nav/myPage.svg');
+}
+
 .sidebar-link span {
     font-size: 10px;
 }

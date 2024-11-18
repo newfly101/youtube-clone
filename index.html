@@ -21,7 +21,7 @@
         <div class="second-section">
             <input class="search-bar" type="text" placeholder="검색"/>
             <button class="search-btn">
-                <img class="search-icon" src="assets/icons/search.svg" alt="search" />
+<!--                <img class="search-icon" src="assets/icons/search.svg" alt="search" />-->
                 <span class="toolTip">검색</span>
             </button>
             <button class="search-voice-btn">
@@ -46,42 +46,38 @@
     </header>
     <nav class="side-bar">
         <div class="sidebar-link">
-            <img src="/assets/nav/home.svg" alt="Home" />
-            <span>Home</span>
+            <button class="sidebar-home"></button>
+            <span>홈</span>
         </div>
         <div class="sidebar-link">
-            <img src="/assets/nav/explore.svg" alt="Explore" />
-            <span>Explore</span>
+            <button class="sidebar-shorts"></button>
+            <span>Shorts</span>
         </div>
         <div class="sidebar-link">
-            <img src="/assets/nav/subscription.svg" alt="Subscription" />
-            <span>Subscription</span>
+            <button class="sidebar-subscribe"></button>
+            <span>구독</span>
         </div>
         <div class="sidebar-link">
-            <img src="/assets/nav/originals.svg" alt="Originals" />
-            <span>Originals</span>
-        </div>
-        <div class="sidebar-link">
-            <img src="/assets/nav/youtubeMusic.svg" alt="YouTubeMusic" />
-            <span>YouTube Music</span>
-        </div>
-        <div class="sidebar-link">
-            <img src="/assets/nav/library.svg" alt="Library" />
-            <span>Library</span>
+            <button class="sidebar-myPage"></button>
+            <span>내 페이지</span>
         </div>
     </nav>
     <main>
-        <section>
-            <div>
-                <div>
-                    <img src="" alt="비디오이미지"/>
-                    <div>분분:초초</div>
+        <section class="main-grid">
+            <div class="video-preview">
+                <div class="video-picture">
+                    <img src="/assets/thumnail.JPG" alt="비디오이미지"/>
+                    <div>21:41</div>
                 </div>
-                <div>
-                    <p>비디오 제목</p>
-                    <p>비디오 저자</p>
-                    <p>3 views . 6 months ago</p>
+                <div class="video-info-preview">
+                    <div>author picture</div>
+                    <div class="video-info">
+                        <p>비디오 제목</p>
+                        <p>비디오 저자</p>
+                        <p>3 views . 6 months ago</p>
+                    </div>
                 </div>
+
             </div>
         </section>
     </main>
