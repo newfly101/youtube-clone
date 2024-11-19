@@ -3,7 +3,7 @@
     --light-button-background: #f8f8f8;
     --light-button-hover: #dfdfdf;
     --light-button-border: #e5e5e5;
-    --light-tooltip-hover: #696969;
+    --light-tooltip-hover: #898989;
 }
 
 p {
@@ -16,7 +16,6 @@ body {
     padding: 0 0 0 0;
     /*top 80 left 96 right 24*/
     background-color: var(--light-background);
-    color: white;
 }
 main {
     margin-top: 42px;
