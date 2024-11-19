@@ -94,6 +94,7 @@ figure > figcaption {
     align-items: start;
     margin: -5px 40px 0 40px;
 }
+
 .video-info-preview > div {
     width: 80px;
     height: 80px;
@@ -142,7 +143,22 @@ figure > figcaption {
 .video-info p {
     cursor: pointer;
 }
+
 .video-option {
-    width: 10px;
-    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    /*padding-right: 10px;*/
+    /*background-color: inherit;*/
+    cursor: pointer;
+}
+.video-option::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../assets/video-option.svg');
 }
