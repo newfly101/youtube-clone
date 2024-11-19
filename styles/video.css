@@ -1,3 +1,12 @@
+:root {
+    /* 이미지 URL을 변수로 지정할 때, 반드시 url() 함수를 사용해야 합니다 */
+    --thumbnail-image1: url("https://i.ytimg.com/vi/_6nv4rrIMuU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQxx1tyH5lkmXa1uGdv3eotpwsBQ");
+    --author-image1: url("https://yt3.ggpht.com/LC83_I8Ug5YXN9z5LtuUgW2X2DzjBNb6Zxhzy0LXVc76CSa--3_SnKrEoL5qK1RMaZvoiGyrVJ0=s68-c-k-c0x00ffffff-no-rj");
+    --thumbnail-image2: url("https://i.ytimg.com/vi/EWcZbd_ypSY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IBMoGDAP&rs=AOn4CLBUENiJTrvNpH-86pGIwuLfSGxMzQ");
+    --author-image2: url("https://yt3.ggpht.com/b8rYX12B1N8syCcO1SAt_4wBAmtKdkmkHs9RHgg4Njq-pAy9U1A0mnsk1iPKeVi5dG0nlmgs=s88-c-k-c0x00ffffff-no-rj");
+    --thumbnail-image3: url("https://i.ytimg.com/vi/0T3xyrkv_kw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMA5veeKyq90KluEkxH4zb3SginA");
+    --author-image3: url("https://yt3.ggpht.com/OBW6334y8MqNoRvrHaK_WTUwxVl4v73ZwoyrZJwILat6wdFaC3HYuCoyBGH4DWNsXW2RRkUikw=s68-c-k-c0x00ffffff-no-rj");
+}
 
 
 .main-grid {
