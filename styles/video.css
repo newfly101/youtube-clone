@@ -65,7 +65,7 @@
     background-image: var(--thumbnail-image3);
 }
 /* video time absolute로 주는 부분 */
-figure > div {
+figure > figcaption {
     position: absolute;
     bottom: 8px;
     right: 8px;
