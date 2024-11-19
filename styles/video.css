@@ -33,11 +33,17 @@
     }
 }
 
-@media (min-width: 1631px) {
+@media (min-width: 1631px) and (max-width: 1950px){
     .main-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+@media (min-width: 1951px) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
 /* video thumbnail 추가하는 부분 */
 .video-preview figure::before {
     content: "";
